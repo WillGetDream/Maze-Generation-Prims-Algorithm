@@ -8,8 +8,8 @@
 #include<queue>
 #include<algorithm>
 using namespace std;
-#define m 13//row
-#define n 13
+#define m 5//row
+#define n 5
 #define down 1
 #define right 2
 #define left 4
@@ -95,13 +95,13 @@ int main(){
         block_direct.erase(block_direct.begin()+randnum);
     }
 
-//    for(int i=0;i<=m+1;i++){
-//        printf("%d:\t",i);
-//        for(int j=0;j<=n+1;j++) {
-//            printf("%d ", a[i][j]);
-//        }
-//        printf("\n");
-//    }
+    for(int i=0;i<=m+1;i++){
+        printf("%d:\t",i);
+        for(int j=0;j<=n+1;j++) {
+            printf("%d ", a[i][j]);
+        }
+        printf("\n");
+    }
 
     //switch 1->0 2->1 wall 3;
     for(int i=0;i<=m+1;i++){
@@ -117,13 +117,13 @@ int main(){
         }
     }
 
-//    for(int i=0;i<=m+1;i++){
-//        printf("%d:\t",i);
-//        for(int j=0;j<=n+1;j++) {
-//            printf("%d ", a[i][j]);
-//        }
-//        printf("\n");
-//    }
+    for(int i=0;i<=m+1;i++){
+        printf("%d:\t",i);
+        for(int j=0;j<=n+1;j++) {
+            printf("%d ", a[i][j]);
+        }
+        printf("\n");
+    }
 
     int r=m+2;
     int l=n+2;
@@ -171,17 +171,17 @@ int main(){
     }
 
     //print
-//    for(int i=0;i<vv.size();i++){
-//        for(int j=0;j<vv[0].size();j++){
-//            if(j==vv[0].size()-1){
-//                cout<<vv[i][j];
-//            }else{
-//                cout<<vv[i][j]<<",";
-//            }
-//        }
-//        cout<<endl;
-//    }
-//    cout<<endl;
+    for(int i=0;i<vv.size();i++){
+        for(int j=0;j<vv[0].size();j++){
+            if(j==vv[0].size()-1){
+                cout<<vv[i][j];
+            }else{
+                cout<<vv[i][j]<<",";
+            }
+        }
+        cout<<endl;
+    }
+    cout<<endl;
 
 
 
